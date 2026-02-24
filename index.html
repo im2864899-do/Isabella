@@ -1,1 +1,290 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isabella Miller | Author</title>
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#fafafa;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:#5b3df5;
+color:white;
+padding:70px 20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+opacity:.9;
+}
+
+.btn{
+display:inline-block;
+background:#ff7a18;
+color:white;
+padding:12px 22px;
+margin:8px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* NAV */
+
+nav{
+background:#111;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+nav a{
+color:white;
+padding:14px 18px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* SECTIONS */
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+/* BOOK GRID */
+
+.books{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.book{
+background:white;
+border-radius:10px;
+padding:20px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.book img{
+width:100%;
+border-radius:6px;
+}
+
+/* BLOG */
+
+.blog{
+display:grid;
+gap:25px;
+}
+
+.post{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:40px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+header h1{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Isabella Miller</h1>
+<p>Author • Motivational Storyteller • Book Translator</p>
+
+<a class="btn" href="https://www.amazon.com/stores/Isabella-Miller/author/B0BZ3CTXFB">View Books</a>
+<a class="btn" href="https://x.com/IsabellaMi52922">Follow on X</a>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#books">Books</a>
+<a href="#blog">Blog</a>
+<a href="#services">Translation</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+
+<h2>About Isabella</h2>
+
+<p>
+Isabella Miller writes uplifting books that help children and readers believe in
+themselves. Her stories focus on confidence, kindness, and personal growth.
+She also helps authors reach new audiences through professional book translation.
+</p>
+
+</section>
+
+<section id="books">
+
+<h2>Books</h2>
+
+<div class="books">
+
+<div class="book">
+<img src="https://m.media-amazon.com/images/I/61.jpg">
+<h3>Naciste Para Brillar</h3>
+<p>A motivational book that inspires children to discover their confidence.</p>
+
+<a class="btn" href="https://www.amazon.com/stores/Isabella-Miller/author/B0BZ3CTXFB">
+Buy on Amazon
+</a>
+</div>
+
+<div class="book">
+<img src="https://m.media-amazon.com/images/I/61.jpg">
+<h3>Motivation for Young Minds</h3>
+<p>Stories designed to encourage resilience and positive thinking.</p>
+
+<a class="btn" href="https://www.amazon.com/stores/Isabella-Miller/author/B0BZ3CTXFB">
+Buy on Amazon
+</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="blog">
+
+<h2>Latest Updates</h2>
+
+<div class="blog">
+
+<div class="post">
+<h3>Why Stories Matter for Children</h3>
+<p>
+Books shape how children see the world. A positive story can inspire courage,
+kindness, and imagination that lasts a lifetime.
+</p>
+</div>
+
+<div class="post">
+<h3>Behind My Writing Process</h3>
+<p>
+Every story begins with a simple question: what message might a child need today?
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2>Book Translation Services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>English → Spanish</h3>
+<p>
+Professional translation helping authors reach Spanish speaking readers.
+</p>
+</div>
+
+<div class="service">
+<h3>Spanish → English</h3>
+<p>
+Accurate and natural translations that keep the voice of the story.
+</p>
+</div>
+
+<div class="service">
+<h3>Publishing Guidance</h3>
+<p>
+Support for authors preparing translated editions for Amazon and international markets.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p style="text-align:center;">
+For collaborations, translation services, or reader messages.
+</p>
+
+<p style="text-align:center;">
+<a class="btn" href="https://x.com/IsabellaMi52922">Message on X</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Isabella Miller</p>
+
+</footer>
+
+</body>
+</html>
